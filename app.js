@@ -55,4 +55,9 @@ search.addEventListener('keypress',function(e){
     }
 })
 
+search.addEventListener('change',function(e){
+    let capitalValue=search.value.trim()
+        changeWeatherUI(capitalValue)
+})
+
 
