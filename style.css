@@ -22,27 +22,27 @@ body{
 }
 
 .warm{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/spring.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/spring-min.jpg) no-repeat center/cover;
 }
 
 .warm #weather{
-    background: url(./img/spring.jpg) no-repeat center/cover
+    background: url(./img/spring-min.jpg) no-repeat center/cover
 }
 
 .cool{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/autumn.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/autumn-min.jpg) no-repeat center/cover;
 }
 
 .cool #weather{
-    background: url(./img/autumn.jpg) no-repeat center/cover
+    background: url(./img/autumn-min.jpg) no-repeat center/cover
 }
 
 .cold{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/winter.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/winter-min.jpg) no-repeat center/cover;
 }
 
 .cold #weather{
-    background: url(./img/winter.jpg) no-repeat center/cover
+    background: url(./img/winter-min.jpg) no-repeat center/cover
 }
 
 .search{

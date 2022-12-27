@@ -46,6 +46,7 @@ async function changeWeatherUI(capitalValue){
     }
 }
 
+changeWeatherUI("ha noi")
 
 search.addEventListener('keypress',function(e){
     let capitalValue=search.value.trim()
@@ -54,5 +55,4 @@ search.addEventListener('keypress',function(e){
     }
 })
 
-changeWeatherUI("ha noi")
 
