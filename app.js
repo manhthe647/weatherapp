@@ -9,7 +9,6 @@ const sun=document.querySelector('.sun span')
 const content=document.querySelector('.content')
 const time=document.querySelector('.time')
 const body=document.querySelector('body')
-const weather=document.querySelector('#weather')
 
 async function changeWeatherUI(capitalValue){
     // let capitalValue=search.value.trim()
