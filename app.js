@@ -11,8 +11,6 @@ const time=document.querySelector('.time')
 const body=document.querySelector('body')
 const weather=document.querySelector('#weather')
 
-weather.setAttribute('class','cold-weather')
-
 async function changeWeatherUI(capitalValue){
     // let capitalValue=search.value.trim()
     let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${capitalValue}&appid=d78fd1588e1b7c0c2813576ba183a667
