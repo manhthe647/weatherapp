@@ -11,38 +11,38 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/summer.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/hot.jpg) no-repeat center/cover;
 }
 
 #weather{
     width: 350px;
     border-radius: 10px;
     padding: 30px 20px;
-    background: url(./img/summer.jpg) no-repeat center/cover
+    background: url(./img/hot.jpg) no-repeat center/cover
 }
 
 .warm{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/spring-min.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/warm.jpg) no-repeat center/cover;
 }
 
 .warm #weather{
-    background: url(./img/spring-min.jpg) no-repeat center/cover
+    background: url(./img/warm.jpg) no-repeat center/cover
 }
 
 .cool{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/autumn-min.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/cool.jpg) no-repeat center/cover;
 }
 
 .cool #weather{
-    background: url(./img/autumn-min.jpg) no-repeat center/cover
+    background: url(./img/cool.jpg) no-repeat center/cover
 }
 
 .cold{
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/winter-min.jpg) no-repeat center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(0,0,0,0.4)), url(./img/cold.jpg) no-repeat center/cover;
 }
 
 .cold #weather{
-    background: url(./img/winter-min.jpg) no-repeat center/cover
+    background: url(./img/cold.jpg) no-repeat center/cover
 }
 
 .search{
